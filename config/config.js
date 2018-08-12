@@ -22,7 +22,7 @@ module.exports = {
     }
   },
   test: {
-    db: 'mongodb://localhost/ngff-test',
+    db: 'mongodb://localhost/ngff-dev',
     root: rootPath,
     notifier: notifier,
     app: {
@@ -30,7 +30,7 @@ module.exports = {
     }
   },
   production: {
-    db: 'mongodb://localhost/ngff',
+    db: 'mongodb://localhost/ngff-dev',
     root: rootPath,
     notifier: notifier,
     app: {
